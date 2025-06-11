@@ -35,3 +35,5 @@ Atenção: o arquivo JavaScript gerado estará na pasta dist/.
 Certifique-se de que o `<script>` no HTML aponta corretamente, por exemplo:
 
 `<script src="dist/script.js"></script>`
+
+<img src="demo/1.png" alt="Demo" />
