@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Todo List Simples</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@picocss/pico@1.5.10/css/pico.min.css"
+    />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Minha Todo List</h1>
+
+      <form onsubmit="adicionar_tarefa(); return false;">
+        <input
+          type="text"
+          id="nova-tarefa"
+          placeholder="Digite uma tarefa"
+          required
+        />
+        <button type="submit">Adicionar</button>
+      </form>
+
+      <ul id="lista-de-tarefas"></ul>
+    </main>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
